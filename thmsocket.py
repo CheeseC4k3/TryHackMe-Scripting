@@ -5,6 +5,7 @@ operation = ""
 result = 0
 number = 0
 next_port = 1337
+#enter IP of deployed machine
 IP = "10.10.12.123"
 
 #end the program once the loop is complete
@@ -41,11 +42,12 @@ while next_port != 9765:
 		elif operation == "divide":
 			result /= number
 		else:
-			#s.close() 
 			continue
 
 		s.close()
+		#print temporary result for visibility
 		print(result)
+		#wait until new port is available
 		time.sleep(3.5)
 
 	#exception: if port is closed, then try again
@@ -53,7 +55,7 @@ while next_port != 9765:
 		#print("port closed")
 		#new try every 0.2 seconds
 		time.sleep(0.2)
-	#sometimes there is a timeout error. then we wait until the current port is open again. Check your Internet connection.
+	#sometimes there is a timeout error. then we wait until the current port is open again. Internet connection stable?
 	except TimeoutError:
 		time.sleep(0.2)
 
