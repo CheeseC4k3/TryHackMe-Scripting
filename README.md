@@ -1,4 +1,7 @@
-# TryHackMe Room: "Scripting", Task 2
+# TryHackMe Room: "Scripting"
+
+
+## Task 2: Gotta Catch em All - Medium
 
 "You need to write a script that connects to this webserver on the correct port, do an operation on a number and then move onto the next port. Start your original number at 0.
 
