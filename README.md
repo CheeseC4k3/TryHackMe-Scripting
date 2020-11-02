@@ -4,9 +4,9 @@
 
 "This file has been base64 encoded 50 times - write a script to retrieve the flag. Here is the general process to do this:
 
-read input from the file
-use function to decode the file
-do process in a loop
+- read input from the file
+- use function to decode the file
+- do process in a loop  
 Try do this in both Bash and Python!"  
 
 ## Task 1: My Solution  
@@ -32,4 +32,17 @@ Go to: http://<machines_ip>:3010 to start..."
 ## Task 2: My Solution  
 [Python Script](https://github.com/CheeseC4k3/TryHackMe-Scripting/blob/main/thmsocket.py)  
 
-## Task 3: not available
+## Task 3: Encrypted Server Chit Chat - Hard
+"The VM you have to connect to has a UDP server running on port 4000. Once connected to this UDP server, send a UDP message with the payload "hello" to receive more information. You will find some sort of encryption(using the AES-GCM cipher). Using the information from the server, write a script to retrieve the flag. Here are some useful thingsto keep in mind:
+
+sending and receiving data over a network is done in bytes
+the PyCA encryption library and functions takes its inputs as bytes
+AES GCM sends both encrypted plaintext and tag, and the server sends these values sequentially in the form of the encrypted plaintext followed by the tag
+This machine may take up to 5 minutes to configure once deployed. Please be patient. 
+
+Use this general approach(use Python3 here as well):
+
+Use the Python sockets library to create a UDP socket and send the aforementioned packets to the server
+use the PyCA encyption library and follow the instructions from the server"  
+
+## Task 3: No Solution available yet  
