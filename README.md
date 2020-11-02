@@ -9,7 +9,7 @@ use function to decode the file
 do process in a loop
 Try do this in both Bash and Python!"  
 
-## Task 1: My Solution:  
+## Task 1: My Solution  
 [Python Script](https://github.com/CheeseC4k3/TryHackMe-Scripting/blob/main/thmbase.py)  
 
 ## Task 2: Gotta Catch em All - Medium
@@ -29,7 +29,7 @@ Each port is also only live for 4 seconds. After that it goes to the next port. 
 Go to: http://<machines_ip>:3010 to start..."  
 
 
-## Task 2: My Solution:  
+## Task 2: My Solution  
 [Python Script](https://github.com/CheeseC4k3/TryHackMe-Scripting/blob/main/thmsocket.py)  
 
 ## Task 3: not available
