@@ -1,5 +1,13 @@
-# TryHackMe Room: "Scripting"
+# TryHackMe Room: "Scripting"  
 
+## Task 1: Base64 - Easy  
+
+"This file has been base64 encoded 50 times - write a script to retrieve the flag. Here is the general process to do this:
+
+read input from the file
+use function to decode the file
+do process in a loop
+Try do this in both Bash and Python!"  
 
 ## Task 2: Gotta Catch em All - Medium
 
