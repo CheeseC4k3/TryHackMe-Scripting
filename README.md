@@ -6,7 +6,8 @@
 
 - read input from the file
 - use function to decode the file
-- do process in a loop  
+- do process in a loop
+
 Try do this in both Bash and Python!"  
 
 ## Task 1: My Solution  
