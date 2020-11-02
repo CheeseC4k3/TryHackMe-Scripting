@@ -9,6 +9,9 @@ use function to decode the file
 do process in a loop
 Try do this in both Bash and Python!"  
 
+## Task 1: My Solution:  
+[Python Script](https://github.com/CheeseC4k3/TryHackMe-Scripting/blob/main/thmbase.py)  
+
 ## Task 2: Gotta Catch em All - Medium
 
 "You need to write a script that connects to this webserver on the correct port, do an operation on a number and then move onto the next port. Start your original number at 0.
@@ -25,8 +28,8 @@ Each port is also only live for 4 seconds. After that it goes to the next port. 
 
 Go to: http://<machines_ip>:3010 to start..."  
 
-## Task 1: My Solution:  
-[Python Script](https://github.com/CheeseC4k3/TryHackMe-Scripting/blob/main/thmbase.py)  
+
 ## Task 2: My Solution:  
 [Python Script](https://github.com/CheeseC4k3/TryHackMe-Scripting/blob/main/thmsocket.py)  
+
 ## Task 3: not available
